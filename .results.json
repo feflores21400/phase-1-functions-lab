@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-09-05T15:45:24.371Z",
+    "end": "2022-09-05T15:45:25.334Z",
+    "duration": 963
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before all\" hook in \"{root}\"",
+      "fullTitle": "\"before all\" hook in \"{root}\"",
+      "duration": 958,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: require(...).env is not a function\n    at Context.<anonymous> (node_modules/mocha-jsdom/index.js:52:22)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "require(...).env is not a function",
+        "multiple": [
+          {
+            "multiple": "TypeError: require(...).env is not a function"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": []
+}
